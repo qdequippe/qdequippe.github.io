@@ -28,26 +28,3 @@ layout: page
 	<li>Scrum and Kanban</li>
 	<li>TDD &amp; Continuous Integration</li>
 </ul>
-
-<h2>Projects</h2>
-
-<section class="list">
-    {% for post in site.posts %}
-        {% if post.projects %}
-            <div class="item {% if post.star %}star{% endif %}">
-                <a class="url" href="{% if post.externalLink %}{{ post.externalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}">
-                    <aside><time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time></aside>
-                    <h3 class="title">{{ post.title }}</h3>
-                </a>
-            </div>
-        {% endif %}
-    {% endfor %}
-</section>
-
-<!--
-<ul>
-	<li><a href="">Wenity</a></li>
-	<li><a href="">Studeal</a></li>
-	<li><a href="">SUP Prozone</a></li>
-</ul>
--->
