@@ -4,7 +4,7 @@ layout: page
 ---
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
-<p>Développeur PHP/Symfony depuis 6 ans, je suis un geek passionné par tout ce qui touche à l'informatique. J'ai notamment était CTO (Directeur technique) et co-fondateur de Studeal et de Wenity qui sont des plateformes de gestion et d'animation de communautés.</p>
+<p>Développeur PHP/Symfony depuis 6 ans, je suis un geek passionné par tout ce qui touche à l'informatique. J'ai notamment été CTO (Directeur technique) et co-fondateur de Studeal et de Wenity qui sont des plateformes de gestion et d'animation de communautés.</p>
 
 <p>J'ai une expertise en PHP/Symfony mais en tant que CTO d'une startup j'ai du tout faire par moi-même au début, développement front end et back end, hébergement sur AWS, intégration web etc.</p>
 
