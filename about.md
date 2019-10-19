@@ -8,7 +8,7 @@ layout: page
 
 <p>J'ai une expertise en PHP/Symfony mais en tant que CTO d'une startup j'ai du tout faire par moi-même au début, développement front end et back end, hébergement sur AWS, intégration web etc.</p>
 
-<p>J'ai géré une équipe (génial soit dit en passant ;)) qui est montée jusqu'à 7 personnes dont des développeurs front et back end ainsi que des UX/UI.</p>
+<p>J'ai géré une équipe qui est montée jusqu'à 7 personnes dont des développeurs front et back end ainsi que des UX/UI.</p>
 
 <p>Mon métier est ma passion, j'adore ce que je fais et j'aime aider mes clients à concrétiser leurs projets.</p>
 
