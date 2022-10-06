@@ -12,7 +12,7 @@ tags:
 ---
 
 Et si nos URLs devenaient plus sympas ? Et si nous pouvions ajouter des emojis dans nos URLs tout en pouvant les 
-stocker sous forme de texte ? Et tout ca bien sur automatiquement ?
+stocker sous forme de texte ? Et tout ça bien sûr automatiquement ?
 
 Nous allons imaginer devoir passer des emojis directement dans une URL pour donner notre avis sur un 
 produit ou un service.
@@ -23,7 +23,7 @@ C'est parti 🚀
 
 ## Emoji + URL = c'est possible
 
-Et oui c'est possible d'avoir des emojis dans une URL, commencons donc par créer notre controller et notre route :
+Et oui c'est possible d'avoir des emojis dans une URL, commençons donc par créer notre controller et notre route :
 
 ```php
 <?php
@@ -47,13 +47,13 @@ Comment maintenant "convertir" ce `👍` en texte ?
 ## Emoji + Symfony = 💙
 
 Grâce au super travail de [Grégoire Pineau](https://twitter.com/lyrixx) (membre de la core team de Symfony) nous allons
-pouvoir "convertir"/"traduire" notre emoji vers un alphabet plus "classique", tout ca grâce au service
+pouvoir "convertir"/"traduire" notre emoji vers un alphabet plus "classique", tout ça grâce au service
 [`EmojiTransliterator`](https://symfony.com/doc/6.2/components/intl.html#emoji-transliteration) (je vous laisse chercher
-dans le code source de Symfony comment ca marche 😉).
+dans le code source de Symfony comment ça marche 😉).
 
 Reprenons donc notre controller et utilisons ce nouveau service, il faut tout d'abord lui définir un "id" en 1er argument,
-"id" qui est en quelque sorte un catalogue des traductions/conversions disponibles. Dans notre cas ce sera le catalogue
-francais "fr" (mais ca marche aussi en anglais avec "en" et même avec "github" 🤩).
+"id" qui est en quelque sorte un catalogue des traductions/conversions disponibles. Dans notre cas, ce sera le catalogue
+francais "fr" (mais ça marche aussi en anglais avec "en" et même avec "github" 🤩).
 
 Appelons ensuite la méthode `transliterate` et voyons ce que ca donne.
 
@@ -85,7 +85,7 @@ Tout fonctionne bien, maintenant comment obtenir automatiquement cette "traducti
 
 ## Param Converter à la rescousse !
 
-Connaissez vous les [Param Converter](https://symfony.com/bundles/SensioFrameworkExtraBundle/current/annotations/converters.html) ?
+Connaissez-vous les [Param Converter](https://symfony.com/bundles/SensioFrameworkExtraBundle/current/annotations/converters.html) ?
 Ces services permettent de convertir des paramètres de la requete directement
 en objet (ou autre) et de les obtenir en argument de votre fonction par exemple.
 
@@ -140,7 +140,7 @@ $request->attributes->get($configuration->getName())
 ```
 
 `$configuration->getName()` nous donne ici le nom de l'attribut présent dans l'url que l'on souhaite convertir. 
-Dans notre cas c'est `emoji` (nous verrons par la suite comment le définir).
+Dans notre cas, c'est `emoji` (nous verrons par la suite comment le définir).
 
 Enfin nous effectuons la "traduction" et nous allons stocker ce résultat dans le même attribut par soucis de simplicité.
 
@@ -151,9 +151,9 @@ $request->attributes->set($configuration->getName(), $translation);
 
 ## Utiliser EmojiConverter
 
-C'est bien beau tout ca mais pour l'instant rien ne se passe, comment utiliser notre Param Converter personnalisé ?
+C'est bien beau tout ça mais pour l'instant rien ne se passe, comment utiliser notre Param Converter personnalisé ?
 
-Tout d'abord nous allons faire un poil de config, il va falloir configurer votre nouveau Param Converter pour pouvoir
+Tout d'abord nous allons faire un poil de config, il va falloir configurer ce nouveau Param Converter pour pouvoir
 l'utiliser comme nous le souhaitons.
 
 ```yaml
@@ -210,4 +210,4 @@ class EmojiController extends AbstractController
 
 Vous êtes à la recherche d'un job de développeur/développeuse Symfony ?
 
-Alors jetez un oeil du côté de [Jobbsy](https://jobbsy.dev/) le job board dédié à Symfony.
+Alors jetez un œil du côté de [Jobbsy](https://jobbsy.dev/) le job board dédié à Symfony.
