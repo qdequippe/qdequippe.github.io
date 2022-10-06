@@ -1,5 +1,7 @@
 baseurl      = "localhost"
-title        = "Quentin Professional Page & Blog"
+title = "Quentin Dequippe"
+subtitle = "Freelance Symfony Consultant"
+keywords = "freelance, symfony, consultant"
 languageCode = "fr-FR"
 theme        = "hello-friend-ng"
 
@@ -36,12 +38,12 @@ copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_
     enableSharingButtons = true
 
     # Metadata mostly used in document's head
-    description = "Professional page and blog"
+    description = "Quentin Dequippe's professional page and blog"
     keywords = "professional page, blog"
     images = [""]
     enableThemeToggle = true
 
-    enableGlobalLanguageMenu = true
+#    enableGlobalLanguageMenu = true
 
     # Custom footer
     # If you want, you can easily override the default footer with your own content.
@@ -92,29 +94,24 @@ copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_
     tag      = "tags"
     series   = "series"
 
-[languages]
-    [languages.en]
-        title = "Quentin Dequippe"
-        subtitle = "Freelance Symfony Consultant"
-        keywords = "freelance, symfony, consultant"
-
-    [languages.fr]
-        title = "Quentin Dequippe"
-        subtitle = "Consultant Freelance Symfony"
-        keywords = "freelance, symfony, consultant"
+#[languages]
+#    [languages.en]
+#        title = "Quentin Dequippe"
+#        subtitle = "Freelance Symfony Consultant"
+#        keywords = "freelance, symfony, consultant"
+#
+#    [languages.fr]
+#        title = "Quentin Dequippe"
+#        subtitle = "Consultant Freelance Symfony"
+#        keywords = "freelance, symfony, consultant"
 
 [menu]
-    [[languages.en.menus.main]]
+    [[menu.main]]
         identifier = "resume"
         name       = "Resume"
         url        = "https://dequippe.tech/resume/quentin_dequippe_resume.pdf"
 
-    [[languages.fr.menus.main]]
+    [[menu.main]]
         identifier = "posts"
         name       = "Blog"
-        url        = "post/"
-
-    [[languages.fr.menus.main]]
-        identifier = "resume"
-        name       = "CV"
-        url        = "https://dequippe.tech/resume/quentin_dequippe_resume.pdf"
+        url        = "posts/"
