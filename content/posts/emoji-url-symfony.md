@@ -11,6 +11,8 @@ tags:
 - param converter
 language: "French"
 description: "Des emojis dans vos URLs avec Symfony en utilisant les Param Converter personnalisés"
+images:
+- /images/domingo-alvarez-e-Cs3y8Mn6-Gk-unsplash.jpg
 ---
 
 ![Love Emoji by Domingo Alvarez E - Unsplash](/images/domingo-alvarez-e-Cs3y8Mn6-Gk-unsplash.jpg)
