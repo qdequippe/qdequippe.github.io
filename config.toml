@@ -1,5 +1,5 @@
 baseurl      = "localhost"
-title        = "My Blog"
+title        = "Quentin Professional Page & Blog"
 languageCode = "fr-FR"
 theme        = "hello-friend-ng"
 
@@ -36,8 +36,8 @@ copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_
     enableSharingButtons = true
 
     # Metadata mostly used in document's head
-    description = "My new homepage or blog"
-    keywords = "homepage, blog"
+    description = "Professional page and blog"
+    keywords = "professional page, blog"
     images = [""]
     enableThemeToggle = true
 
@@ -84,7 +84,7 @@ copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_
 
     [[params.social]]
         name = "linkedin"
-        url  = "https://www.linkedin.com/in/quentindequippe"
+        url  = "https://www.linkedin.com/in/qdequippe"
 
     [[params.social]]
         name = "stackoverflow"
