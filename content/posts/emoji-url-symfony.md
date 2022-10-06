@@ -11,6 +11,8 @@ tags:
 - param converter
 ---
 
+![Example image](/images/domingo-alvarez-e-Cs3y8Mn6-Gk-unsplash.jpg)
+
 Et si nos URLs devenaient plus sympas ? Et si nous pouvions ajouter des emojis dans nos URLs tout en pouvant les 
 stocker sous forme de texte ? Et tout ça bien sûr automatiquement ?
 
