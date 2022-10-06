@@ -44,7 +44,7 @@ avec l'url `https://mon-site.fr/feedback/👍`, le dump affichera `👍`
 
 Comment maintenant "convertir" ce `👍` en texte ?
 
-## ~~EmojiTerminator~~ EmojiTransliterator
+## Emoji + Symfony = 💙
 
 Grâce au super travail de [Grégoire Pineau](https://twitter.com/lyrixx) (membre de la core team de Symfony) nous allons
 pouvoir "convertir"/"traduire" notre emoji vers un alphabet plus "classique", tout ca grâce au service
