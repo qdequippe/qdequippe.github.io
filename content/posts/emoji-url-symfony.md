@@ -9,9 +9,11 @@ tags:
 - emoji
 - symfony
 - param converter
+language: "French"
+description: "Des emojis dans vos URLs avec Symfony en utilisant les Param Converter personnalisés"
 ---
 
-![Example image](/images/domingo-alvarez-e-Cs3y8Mn6-Gk-unsplash.jpg)
+![Love Emoji by Domingo Alvarez E - Unsplash](/images/domingo-alvarez-e-Cs3y8Mn6-Gk-unsplash.jpg)
 
 Et si nos URLs devenaient plus sympas ? Et si nous pouvions ajouter des emojis dans nos URLs tout en pouvant les 
 stocker sous forme de texte ? Et tout ça bien sûr automatiquement ?
