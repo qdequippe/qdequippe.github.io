@@ -1,5 +1,5 @@
 baseurl      = "localhost"
-title = "Quentin Dequippe | Freelance PHP/Symfony Consultant"
+title = "Quentin Dequippe"
 subtitle = "Freelance PHP/Symfony Consultant"
 keywords = "freelance, symfony, consultant"
 languageCode = "fr-FR"
@@ -27,7 +27,7 @@ defaultContentLanguage = "fr"
     dateformNumTime = "2006-01-02 15:04"
 
     # Subtitle for home
-    # homeSubtitle = "Freelance PHP/Symfony Consultant"
+    homeSubtitle = "Freelance PHP/Symfony Consultant"
 
     # Set disableReadOtherPosts to true in order to hide the links to other posts.
     disableReadOtherPosts = false
