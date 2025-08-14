@@ -56,7 +56,7 @@ defaultContentLanguage = "fr"
         bottomText = []
 
     [params.logo]
-        logoMark     = " "
+        logoMark     = "/images/logo-qdequippe.png"
         logoText     = "<?php echo 'Hello World' ?> "
         logoHomeLink = "/"
         # Set true to remove the logo cursor entirely.
