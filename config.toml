@@ -1,6 +1,6 @@
 baseurl      = "localhost"
-title = "Quentin Dequippe"
-subtitle = "Freelance Symfony Consultant"
+title = "Quentin Dequippe | Freelance PHP/Symfony Consultant"
+subtitle = "Freelance PHP/Symfony Consultant"
 keywords = "freelance, symfony, consultant"
 languageCode = "fr-FR"
 theme        = "hello-friend-ng"
