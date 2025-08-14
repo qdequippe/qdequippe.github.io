@@ -47,10 +47,10 @@ defaultContentLanguage = "fr"
     # If you want, you can easily override the default footer with your own content.
     #
     [params.footer]
-        trademark = true
+        trademark = false
         rss = true
-        copyright = true
-        author = true
+        copyright = false
+        author = false
 
         topText = []
         bottomText = []
@@ -67,10 +67,6 @@ defaultContentLanguage = "fr"
         # logoCursorAnimate  = "2s"
 
     # Social icons
-    [[params.social]]
-        name = "twitter"
-        url  = "https://twitter.com/qdequippe"
-
     [[params.social]]
         name = "email"
         url  = "mailto:quentin@dequippe.tech"
