@@ -1,0 +1,63 @@
+baseURL: https://dequippe.tech
+languageCode: "fr-FR"
+title: "Quentin Dequippe"
+enableEmoji: true
+defaultContentLanguage: fr
+enableRobotsTXT: true
+theme: ["PaperMod"]
+
+params:
+    displayFullLangName: true
+    ShowPostNavLinks: true
+    ShowBreadCrumbs: true
+    ShowCodeCopyButtons: true
+    ShowRssButtonInSectionTermList: true
+    profileMode:
+        enabled: true
+        title: "Hello 👋"
+
+    socialIcons:
+        - name: email
+          url: "mailto:quentin@dequippe.tech"
+        - name: github
+          url: "https://github.com/qdequippe"
+        - name: linkedin
+          url: "https://www.linkedin.com/in/qdequippe"
+        - name: stackoverflow
+          url: "https://stackoverflow.com/users/10353962/qdequippe"
+
+languages:
+    fr:
+        languageName: Français
+        languageCode: fr-FR
+        weight: 1
+        menu:
+            main:
+                - identifier: blog
+                  name: Blog
+                  url: /posts/
+                  weight: 10
+                - identifier: resume
+                  name: CV
+                  url: https://dequippe.tech/resume/quentin_dequippe_resume.pdf
+        params:
+            description: "Consultant freelance PHP/Symfony"
+            profileMode:
+                subtitle: "Je suis Quentin Dequippe, consultant freelance PHP/Symfony"
+    en:
+        languageName: English
+        weight: 2
+        languageCode: en-US
+        menu:
+            main:
+                - identifier: blog
+                  name: Blog
+                  url: /posts/
+                  weight: 10
+                - identifier: resume
+                  name: Resume
+                  url: https://dequippe.tech/resume/quentin_dequippe_resume.en.pdf
+        params:
+            description: "Freelance PHP/Symfony Consultant"
+            profileMode:
+                subtitle: " I'm Quentin Dequippe, freelance PHP/Symfony consultant"
