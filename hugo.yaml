@@ -41,9 +41,9 @@ languages:
                   name: CV
                   url: https://dequippe.tech/resume/quentin_dequippe_resume.pdf
         params:
-            description: "Consultant freelance PHP/Symfony"
+            description: "Consultant & référent technique web"
             profileMode:
-                subtitle: "Je suis Quentin Dequippe, consultant freelance PHP/Symfony"
+                subtitle: "Je suis Quentin Dequippe, consultant & référent technique web"
     en:
         languageName: English
         weight: 2
@@ -58,6 +58,6 @@ languages:
                   name: Resume
                   url: https://dequippe.tech/resume/quentin_dequippe_resume.en.pdf
         params:
-            description: "Freelance PHP/Symfony Consultant"
+            description: "Web consultant & technical lead"
             profileMode:
-                subtitle: " I'm Quentin Dequippe, freelance PHP/Symfony consultant"
+                subtitle: " I'm Quentin Dequippe, web consultant & technical lead"
